@@ -1,0 +1,508 @@
+
+
+/* Progress bar colour*/
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #00A064;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+
+/* Main navbar colour*/
+.navbar-default {
+  background-color: rgb(70,105,100);
+    border-color: #ffffff;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    border-top-color: rgb(70,105,100);
+}
+
+.navbar-default:focus {
+    border-color: red;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+
+
+/* Hoover colour for navbar buttons*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c8d7a7;
+  background-color: rgb(70,105,100);
+}
+
+/* Navbar active button colour*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #c8d7a7;
+  background-color: rgb(70,105,100);
+}
+
+
+/* Navbar dropdown menu button colour*/
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: rgb(70,105,100);
+  color: #ffffff;
+}
+
+/*
+.navbar-default .navbar-toggle {
+  border-color: #00A064;
+
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgb(70,105,100);
+
+}
+*/
+
+
+/* Colour for elements in dropdown menu*/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(70,105,100);
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: rgb(70,105,100);
+}
+
+
+
+
+
+
+
+
+/* Text col for hyperlinks etc..*/
+a {
+  color: rgb(70,105,100);
+  text-decoration: none;
+}
+
+/*
+a.text-primary:hover,
+a.text-primary:focus {
+  color: rgb(70,105,100);
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+  background-color: rgb(70,105,100);
+}
+ */
+
+/* Text col when hoover over tabs*/
+a:hover,
+a:focus {
+  color: rgb(70,105,100);
+  text-decoration: underline;
+}
+
+
+
+/*
+.text-primary {
+  color: rgb(70,105,100);
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #00A064;
+  border-color: #00A064;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: #00A064;
+}
+*/
+
+
+/*light grey = #D6D6D7
+ darker grey = #97989A*/
+
+.btn-default {
+  color: #ffffff;
+  background-color: #97989A;
+  border-color: #97989A;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #ffffff;
+  background-color: #303135;
+  border-color: #D6D6D7;
+}
+.btn-default:hover {
+  color: #ffffff;
+  background-color: #303135;
+  border-color: #D6D6D7;
+}
+/*
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #ac3911;
+  text-decoration: underline;
+  background-color: transparent;
+}
+*/
+
+
+/*
+.shiny-progress-container {
+  color: red;
+  font-size: 10px;
+  background-color: #00A064;
+  text-align: center;
+}
+
+.shiny-progress .bar{
+  background-color: #00A064;
+  opacity = 0.8;
+}
+
+.shiny-progress .progress{
+  height:6px;
+  color: #00A064;
+}
+
+.shiny-progress .progress-text {
+  position: absolute;
+  right: 10px;
+  height: 24px;
+  width: 240px;
+  color: #FFFFFF;
+  background-color: #00A064;
+  opacity = 0.6;
+  margin: 0px;
+  padding: 2px 3px;
+  opacity: 0.85;
+}
+*/
+
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+
+.tabbable > .nav > li[class=active]    > a {
+background-color: rgb(70,105,100); color:white
+}
+
+
+ h3 {
+    font-size: 19px;
+}
+
+#.box-body {
+
+ #   background: #f5f5ff;
+#}
+
+
+.box-body {
+-webkit-box-shadow: none; -moz-box-shadow: none;box-shadow: none;
+}
+
+
+.box-header {
+  color:#fff;
+  background:#666666
+border-bottom-color:#red;
+border-left-color:#red;
+border-right-color:#red;
+border-top-color:#red;
+}
+
+
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: rgb(70,105,100);
+    border: 2px solid #e3e3e3;
+    border-radius: 12px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    border-color:rgb(70,105,100);
+width: 24vw;
+min-width:300px
+}
+
+
+
+
+element.style {
+}
+.selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+    cursor: pointer;
+}
+
+.selectize-input {
+    min-height: 34px;
+    border: 2px solid #466964;
+    padding: 6px 12px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.selectize-input.full {
+    background-color: white;
+}
+
+
+.selectize-input.focus {
+    border: 2px solid green;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 2px 6px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f5f5ff;
+    background-image: none;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+
+.form-control:focus {
+    border-color: green;
+}
+
+
+.irs-bar {
+    background: green;
+}
+
+
+.irs-bar-edge {
+    border: 1px solid green;
+    background: green;
+
+}
+
+
+.pretty.p-icon .state .icon {
+    background-color: green;
+} 
+
+
+.irs-from, .irs-to, .irs-single {
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 3px;
+    background: green;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+
+.irs-min, .irs-max {
+    color: white;
+    font-size: 10px;
+    line-height: 1.333;
+    text-shadow: none;
+    top: 0;
+    padding: 1px 3px;
+    background: green;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: rgb(70,105,100);
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #f5f5ff;
+    cursor: default;
+    background-color: rgb(70,105,100);
+    border-color: rgb(70,105,100);
+}
+
+
+.btn-default {
+    color: #f5f5ff;
+    background-color: rgb(70,105,100);
+    border-color: rgb(70,105,100);
+}
+
+
+
+
+.irs-with-grid {
+    height: 60px;
+    margin-left: 30px;
+    width: 285px;
+}
+
+
+
+
+
+
+
+.box-header {
+    color: #f5f5ff;
+    background: #466964;
+}
+
+
+
+.box {
+
+    background: transparent;
+
+border: 0px solid #d2d6de;
+box-shadow: 0 0px 0px rgba(162, 58, 58, 0.1);
+}
+
+
+.box.box-solid{
+
+    background: #d1dad8;
+    border: 0px solid #466964;
+
+}
+
+
+
+
+#.small-box > .inner {
+#   padding: 10px;
+#    background: #466964;
+#}
+
+
+
+#.alert-info, .bg-aqua, .callout.callout-info, .label-info, .modal-info .modal-body {
+#    background-color: #466964 !important;
+#}
+
+
+.rChart {
+    height: 1000px;
+}
+
+.well .shiny-input-container {
+    margin-bottom: 0px;
+    width: auto;
+}
+
+
+.bg-fuchsia {
+    background-color: #466964 !important;
+}
+
+
+.selectize-dropdown .optgroup-header {
+
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #466964;
+    background:#f5f5ff
+
+}
+
+
+
+
+.btn-default:focus, .btn-default.focus {
+    color: black ;
+
+    background-color: #f5f5ff;
+    border-color: #D6D6D7;
+}
+
+
+
+.nvd3 {
+ 
+    margin-left: 1.5vw;
+
+}
+
+
+.highcharts-tooltip text {
+
+text-align:center
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+
+
+rect.highcharts-button-box {
+
+    height: 25px
+
+}
